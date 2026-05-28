@@ -5,7 +5,9 @@ This repository now includes a static GitHub Pages site for tracking card comps 
 
 ## Features
 - Add cards with comp prices and keep them in local storage.
+- Upload a card photo, OCR the text, and apply it to the card form.
 - Calculate the average comp price from the tracked cards instantly.
+- Pull comp info through Sports Card Pro, Card Ladder, 120 Point, Foil Snap, and eBay.
 - Select multiple comps destinations and open the current card set in each selected site.
 
 ## Live site
