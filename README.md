@@ -8,6 +8,9 @@ This repository now includes a static GitHub Pages site for tracking card comps 
 - Calculate the average comp price from the tracked cards instantly.
 - Select multiple comps destinations and open the current card set in each selected site.
 
+## Live site
+- Published GitHub Pages URL: https://kgeark1023.github.io/Card-Comp-Tool/
+
 ## Run locally
 - Serve the repository root with a static server, for example:
   - `python3 -m http.server 8000`
