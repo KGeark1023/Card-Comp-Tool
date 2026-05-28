@@ -260,8 +260,46 @@ button.secondary {
 }
 
 @media (max-width:760px) {
-  .grid { grid-template-columns:1fr; }
+  .shell { width:min(100% - 14px, 1120px); padding-top:14px; }
   .hero { align-items:flex-start; flex-direction:column; }
   .hero-stats { width:100%; }
-  .card-item { grid-template-columns:1fr; }
+  .hero-stats .stat-card { flex:1 1 0; min-width:0; }
+
+  .grid { grid-template-columns:1fr; }
+
+  .form-grid {
+    grid-template-columns:1fr;
+  }
+
+  .button-row {
+    flex-direction:column;
+  }
+
+  .card-item {
+    grid-template-columns:1fr;
+    align-items:flex-start;
+  }
+
+  .card-item .comp-pill,
+  .card-item .count-pill,
+  .card-item .remove-btn {
+    justify-self:start;
+  }
+}
+
+@media (max-width:560px) {
+  body { font-size:15px; }
+
+  .hero h1 { font-size:2rem; }
+  .hero .subcopy { font-size:0.94rem; }
+
+  .panel, .stat-card {
+    border-radius:18px;
+  }
+
+  .panel { padding:15px; }
+
+  .site-option {
+    align-items:flex-start;
+  }
 }
